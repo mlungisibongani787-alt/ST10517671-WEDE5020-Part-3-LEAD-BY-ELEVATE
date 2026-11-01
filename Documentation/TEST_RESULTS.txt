@@ -4,6 +4,8 @@ Project: LEAD by ELEVATE
 Student: Bongani Mlungisi Ndhlala
 Student number: ST10517671
 Prepared: 1 November 2026
+Deployed URL: https://lead-by-elevate.netlify.app/
+GitHub: https://github.com/mlungisibongani787-alt/ST10517671-WEDE5020-Part-3-LEAD-BY-ELEVATE
 
 NOTE: Automated browser interaction testing could not be completed in this environment because the browser runtime blocked local HTTP navigation. The functional tests below remain marked for manual verification.
 
@@ -28,7 +30,7 @@ FUNCTIONAL FEATURES INCLUDED — BROWSER TESTING REQUIRED
 - Live Services page search/filter.
 - Expandable FAQ sections.
 - Gallery lightbox with close button and Escape-key support.
-- Interactive OpenStreetMap embed (requires an internet connection).
+- Interactive Google Maps search embed and directions link for the supplied office address (requires an internet connection).
 - Responsive layouts and navigation at desktop, tablet and mobile sizes.
 
 FINAL MANUAL TESTS — COMPLETE BEFORE SUBMISSION
@@ -44,8 +46,8 @@ FINAL MANUAL TESTS — COMPLETE BEFORE SUBMISSION
 [ ] Confirm the map loads with an internet connection.
 [ ] Test all six pages at desktop, tablet and mobile sizes.
 [ ] Deploy the website and test all pages on the published URL.
-[ ] Replace the deployment-domain placeholders in robots.txt and sitemap.xml.
-[ ] Add the final GitHub repository URL and deployed URL to README.md.
+[PASS] robots.txt and sitemap.xml contain the confirmed Netlify deployment URL and all six page URLs.
+[PASS] README.md contains the confirmed GitHub repository URL and deployed website URL.
 
 FORM PROCESSING LIMITATION
 The lecturer clarified on 28 October 2026 that this introductory assessment does not require database storage or actual email delivery. Form submissions therefore remain client-side demonstrations and do not transmit or store personal information. Do not describe them as live email or server-side submissions.

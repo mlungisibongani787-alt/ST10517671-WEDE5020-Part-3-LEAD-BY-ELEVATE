@@ -27,4 +27,4 @@ MANUAL BROWSER TESTS REQUIRED BEFORE SUBMISSION
 [ ] Test interactive map with an internet connection.
 [ ] Test desktop, tablet and mobile layouts.
 [ ] Repeat all relevant tests on the deployed website.
-[ ] Replace sitemap and robots domain placeholders with the final deployed URL.
+[ ] Confirm sitemap and robots files load from the final deployed URL.

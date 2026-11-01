@@ -118,4 +118,4 @@ The Part 3 implementation is summarised in the root README.md. The website now i
 IMPORTANT FORM NOTE
 The lecturer clarified in the 28 October 2026 class session that this introductory assessment does not require a database or actual email delivery. Forms therefore demonstrate client-side validation and confirmation only; they do not transmit or store personal information.
 
-The actual deployed URL must replace the placeholder domain in robots.txt and sitemap.xml after hosting is completed.
+The deployed website URL is https://lead-by-elevate.netlify.app/. The root robots.txt and sitemap.xml are configured for this live domain.

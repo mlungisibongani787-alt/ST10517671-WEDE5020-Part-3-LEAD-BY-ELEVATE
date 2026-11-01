@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace this placeholder with the final deployed website URL before submission.
-Sitemap: https://YOUR-DEPLOYED-DOMAIN/sitemap.xml
+Sitemap: https://lead-by-elevate.netlify.app/sitemap.xml

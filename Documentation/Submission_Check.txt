@@ -10,13 +10,13 @@ Included in the updated project:
 - Expandable FAQ content and live service search.
 - Gallery lightbox.
 - Page-specific meta keywords; existing page titles and descriptions retained.
-- robots.txt and sitemap.xml (replace domain placeholders after deployment).
+- robots.txt and sitemap.xml (configured with the confirmed Netlify deployment URL).
 - Root README.md with project overview, setup, testing notes and references.
 - Updated changelog, site map, folder structure and test results.
 
 Before LMS submission:
 1. Complete the manual browser tests listed in TEST_RESULTS.txt.
-2. Replace the deployment-domain placeholders in robots.txt and sitemap.xml.
+2. Confirm robots.txt and sitemap.xml are accessible on the deployed website.
 3. Deploy the website to the selected free hosting platform.
 4. Test all pages and functionality on the deployed URL.
 5. Push the final project to the required GitHub repository.

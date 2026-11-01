@@ -1,67 +1,73 @@
-# LEAD by ELEVATE — WEDE5020 Part 3
+# LEAD by ELEVATE — WEDE5020 Part 3 POE
 
 **Student:** Bongani Mlungisi Ndhlala  
 **Student number:** ST10517671  
 **Module:** Web Development (Introduction) — WEDE5020  
 **Project:** LEAD by ELEVATE
 
-## 1. Project overview
+## Project overview
 
-LEAD by ELEVATE is a development platform and community for young professionals and emerging leaders. This project extends the submitted Part 1 and Part 2 website. The six-page structure, supplied project content, visual identity, stylesheet and local image assets have been retained.
+LEAD by ELEVATE is a development platform and community for young professionals and emerging leaders. This project extends the submitted Part 1 and Part 2 website. The six-page structure, supplied content, visual identity, stylesheet and local image assets have been retained while Part 3 functionality, SEO and documentation were added.
 
-## 2. Website pages
+## Website pages
 
 | Page | Purpose |
 |---|---|
 | `index.html` | Home page and introduction to LEAD by ELEVATE |
-| `About.html` | Organisation purpose, mission, vision and values |
-| `Services.html` | Leadership development, mentorship, industry exposure, career growth, community sessions and coaching |
-| `Enquiry.html` | Enquiry form with HTML constraints and JavaScript validation |
-| `Contact Us.html` | Contact information, validated contact form and an interactive map for the supplied office address |
+| `About.html` | Organisation purpose, mission, vision, values and member expectations |
+| `Services.html` | Leadership development, mentorship, industry exposure, career growth, community sessions and coaching; includes live search and expandable FAQs |
+| `Enquiry.html` | Enquiry form with HTML constraints, JavaScript validation and confirmation feedback |
+| `Contact Us.html` | Contact details, validated contact form, office location, interactive map and directions |
 | `Gallery.html` | Project photographs and promotional material with an accessible image lightbox |
 
-## 3. Office location
+## Live project links
 
-The Contact Us page displays the address supplied for this project: **Dunkeld Crescent Office Park, 2 Albury Road, Dunkeld West, Randburg, Johannesburg, South Africa**. The embedded Google Maps search and directions link use this address as their destination. Confirm that the correct office-park result appears when testing the deployed map.
+- **Deployed website:** https://lead-by-elevate.netlify.app/
+- **GitHub repository:** https://github.com/mlungisibongani787-alt/ST10517671-WEDE5020-Part-3-LEAD-BY-ELEVATE
+- **Sitemap:** https://lead-by-elevate.netlify.app/sitemap.xml
+- **Robots file:** https://lead-by-elevate.netlify.app/robots.txt
 
-## 4. Part 3 functionality
+## Contact and office details
 
-- Added a contact form to the Contact Us page while retaining the existing enquiry form.
-- Added HTML form constraints, including required fields, appropriate input types, character limits and phone-number pattern validation.
-- Added JavaScript validation for names, email addresses, phone numbers, selections and message lengths.
-- Added inline field-level error messages, invalid-state indicators and accessible success/error status messages.
-- Added a successful-submission confirmation for valid form input.
-- Added live search to filter the Services page cards without reloading the page.
-- Added expandable FAQ content using HTML disclosure elements.
-- Added an accessible Gallery lightbox with close-button and Escape-key support.
-- Added an interactive Google Maps search embed and directions link on the Contact Us page.
-- Added page-specific meta keywords while retaining page titles and meta descriptions.
-- Added `robots.txt`, `sitemap.xml` and `netlify.toml`.
+**Telephone:** [072 747 7902](tel:+27727477902)  
+**Office:** Dunkeld Crescent Office Park, 2 Albury Road, Dunkeld West, Randburg, Johannesburg, South Africa.
 
-## 5. Form processing clarification
+The Contact Us page provides a Google Maps search embed and a directions link for the supplied office address. The telephone link uses the contact number supplied for this project.
 
-During the 28 October 2026 class session, the lecturer clarified that this introductory assessment does not require a database or actual email sending. The forms therefore demonstrate client-side HTML and JavaScript validation and an on-screen confirmation. They do not transmit, email or store personal information. The written POE mentions AJAX submission; no server endpoint was supplied, and the class explanation focused on client-side validation and confirmation. If the lecturer confirms that an actual asynchronous request is still required, a suitable endpoint must be supplied and tested before that feature can be described as complete.
+## Part 3 functionality and rubric coverage
 
-## 6. Technologies
+- **Feedback and changelog:** updates from Parts 1–3 are recorded in `Documentation/CHANGELOG.txt`.
+- **Interactive elements:** responsive navigation state, expandable FAQ disclosures, live search, gallery modal/lightbox, keyboard Escape handling, and CSS hover/focus transitions.
+- **Dynamic content and search:** the Services search filters cards as the visitor types and displays the number of matches or a no-results message.
+- **Interactive map:** Google Maps search embed and directions link for the office location.
+- **Enquiry form:** required fields, appropriate input types, HTML constraints, JavaScript checks, field-level errors, focus on the first invalid field and confirmation feedback.
+- **Contact form:** name, email, phone, message-type selection and message fields; validation, clear error feedback and confirmation feedback.
+- **SEO:** page-specific titles, meta descriptions and keywords, semantic heading structure, descriptive image names and alternative text, internal links, responsive layouts, `robots.txt` and `sitemap.xml`.
+- **Deployment:** static site configured for Netlify using `netlify.toml`.
 
-- HTML5 for semantic page structure and form constraints.
-- CSS3 for the existing responsive design and Part 3 interface additions.
-- JavaScript for form validation, live service search, navigation state and gallery lightbox behaviour.
-- Google Maps embed and directions URL for the supplied office-location search.
+## Form-processing note
 
-## 7. Running the website locally
+The lecturer's 28 October 2026 class clarification, as recorded in the project material, states that a database and actual email delivery are not required for this introductory assessment. Accordingly, both forms validate input in the browser and show an on-screen confirmation. **They do not send an email, make an AJAX request to a server, or store submissions.** No server endpoint or recipient email address was provided. Do not describe these forms as live email or server-side processing.
 
-This is a static website. Open the project through a local development server rather than relying only on a direct `file://` browser path.
+## Technologies
 
-For example, with Python installed, open a terminal in the project folder and run:
+- HTML5 — semantic page structure and native form controls/constraints.
+- CSS3 — existing visual design, responsive layouts, focus states, transitions and reduced-motion support.
+- JavaScript — form validation and feedback, live search, navigation state and gallery lightbox behaviour.
+- Google Maps — embedded location search and directions link.
+- Netlify — static website deployment.
+
+## Run locally
+
+Open a terminal in the project folder and run:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000/` in a browser.
+Then visit http://localhost:8000/ in a browser.
 
-## 8. References
+## References
 
 Google (n.d.) *Google Maps URLs*. Available at: https://developers.google.com/maps/documentation/urls/get-started (Accessed: 1 November 2026).
 
@@ -79,33 +85,26 @@ Mozilla Developer Network (MDN Web Docs) (n.d.) *Responsive images*. Available a
 
 The Independent Institute of Education (2026) *WEDE5020 Web Development (Introduction): Part 3 Portfolio of Evidence instructions and marking rubric*. Unpublished module assessment material.
 
-The Independent Institute of Education (2026) *WEDE5020 Bi-Weekly Class recording transcript*, 28 October 2026. Unpublished class-session transcript.
+The Independent Institute of Education (2026) *WEDE5020 Bi-Weekly Class session*, 28 October 2026. Unpublished class-session material.
 
 LEAD by ELEVATE (2026) *Member expectations, welcome and community promotional material*. Supplied project material.
 
-## 9. Testing checklist
+## Testing and release checklist
 
-Complete these checks in a browser before final submission and tick each item only after testing it:
+Static checks have been performed on the project files. Browser-based checks must still be completed by the student on the deployed website before final LMS submission. See `Documentation/TEST_RESULTS.txt` for the distinction between static checks and manual tests.
 
-- [ ] All six HTML pages load and navigation links work.
-- [ ] CSS and JavaScript load on every page.
-- [ ] Enquiry form rejects blank and invalid values.
-- [ ] Enquiry form accepts valid values and displays its confirmation.
-- [ ] Contact form rejects blank and invalid values.
-- [ ] Contact phone number accepts exactly 10 digits.
-- [ ] Contact form accepts valid values and displays its confirmation.
-- [ ] Service search filters cards as text is entered.
-- [ ] FAQ sections expand and collapse.
-- [ ] Gallery images open in the lightbox and close using the button or Escape key.
-- [ ] Office map loads and the displayed result matches the supplied address.
-- [ ] Pages remain usable at desktop, tablet and mobile widths.
-- [ ] `robots.txt` and `sitemap.xml` are accessible after deployment.
-- [ ] Replace the deployment-domain placeholders in `robots.txt` and `sitemap.xml` with the actual published URL.
-- [ ] Test every deployed page and record any issues before submission.
+- [ ] Open all six pages from the deployed URL.
+- [ ] Test navigation and footer telephone links on all pages.
+- [ ] Test blank, invalid and valid Enquiry form submissions.
+- [ ] Test blank, invalid and valid Contact form submissions.
+- [ ] Confirm the contact phone field accepts exactly 10 digits.
+- [ ] Test matching and non-matching Services search terms.
+- [ ] Expand and collapse each FAQ.
+- [ ] Open a gallery image; close with the close button, backdrop and Escape key.
+- [ ] Confirm the map resolves to the supplied office address.
+- [ ] Test desktop, tablet and mobile layouts.
+- [ ] Confirm `robots.txt` and `sitemap.xml` load from the live domain.
 
-**Deployment URL:** To be added after Netlify deployment.  
-**GitHub repository URL:** To be added after the remote repository is created.
+## Changelog
 
-## 10. Changelog
-
-See `Documentation/CHANGELOG.txt` for the development record covering Part 1, Part 2 and Part 3.
+See `Documentation/CHANGELOG.txt` for the development record covering Parts 1, 2 and 3.

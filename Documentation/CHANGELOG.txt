@@ -26,7 +26,7 @@ PART 3 — FUNCTIONALITY, VALIDATION AND SEO
 - Added an accessible image lightbox to Gallery.html, including close-button and Escape-key support.
 - Added an interactive map embed to Contact Us.html. The initial general Johannesburg map was subsequently replaced with a Google Maps search for the office address supplied by the student.
 - Added page-specific meta keywords while preserving the existing page titles and meta descriptions.
-- Added robots.txt and sitemap.xml. The deployment-domain placeholders must be replaced after the final hosting URL is known.
+- Added robots.txt and sitemap.xml; their deployment-domain placeholders were replaced in the final release update below.
 - Created this root README.md and updated the documentation references and testing checklist.
 
 TESTING AND RELEASE NOTES
@@ -39,3 +39,11 @@ Part 3 update — 1 November 2026
 - Updated the Contact Us page with the supplied office address: Dunkeld Crescent Office Park, 2 Albury Road, Dunkeld West, Randburg, Johannesburg, South Africa.
 - Replaced the general Johannesburg reference map with an interactive Google Maps search for the supplied office location and added a directions link.
 - Updated the README project description and references to document the office location and map integration.
+
+
+FINAL RELEASE UPDATE — 1 NOVEMBER 2026
+- Replaced the robots.txt sitemap placeholder with the confirmed Netlify sitemap URL.
+- Replaced all sitemap domain placeholders with the six confirmed Netlify page URLs.
+- Added the supplied LEAD contact telephone number (072 747 7902) as visible contact information and a click-to-call link.
+- Updated the root README with the live deployment URL, GitHub repository URL, telephone details, references, rubric coverage and an accurate explanation of client-side-only form processing.
+- Clarified that browser-based manual testing remains required before LMS submission; static checks are recorded separately.
