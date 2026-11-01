@@ -1,33 +1,51 @@
-WEDE5020 PART 2 – LOCAL TEST RESULTS
+WEDE5020 PART 3 — TEST RESULTS AND VERIFICATION CHECKLIST
 
-Test date: 25 September 2026
+Project: LEAD by ELEVATE
+Student: Bongani Mlungisi Ndhlala
+Student number: ST10517671
+Prepared: 1 November 2026
 
-Environment: Local Python HTTP server and Chromium-based desktop environment.
+NOTE: Automated browser interaction testing could not be completed in this environment because the browser runtime blocked local HTTP navigation. The functional tests below remain marked for manual verification.
 
-HTTP page checks
-- index.html: PASS (HTTP 200)
-- About.html: PASS (HTTP 200)
-- Services.html: PASS (HTTP 200)
-- Enquiry.html: PASS (HTTP 200)
-- Contact Us.html: PASS (HTTP 200)
-- Gallery.html: PASS (HTTP 200)
-- css/style.css: PASS (HTTP 200)
-- js/script.js: PASS (HTTP 200)
+AUTOMATED / STATIC CHECKS COMPLETED
+- JavaScript syntax checked with Node.js: PASS
+- All six HTML files parsed: PASS
+- All local CSS, JavaScript, image and page references checked: PASS
+- Duplicate HTML IDs checked: PASS
+- All six pages contain page titles and meta descriptions: PASS
+- All six pages contain page-specific meta keywords: PASS
+- Enquiry form found: PASS
+- Contact form found: PASS
+- Gallery lightbox markup found: PASS
+- Gallery image alternative text checked: PASS
+- sitemap.xml XML parsing: PASS
+- robots.txt present: PASS
 
-Static checks
-- All six pages contain the shared navigation: PASS
-- All six pages contain a page title: PASS
-- All six pages contain a meta description: PASS
-- Shared external stylesheet is linked: PASS
-- Shared JavaScript file is linked: PASS
-- Local image references resolve: PASS
-- Responsive image variants exist: PASS
-- JavaScript syntax check: PASS
+FUNCTIONAL FEATURES INCLUDED — BROWSER TESTING REQUIRED
+- Enquiry form HTML constraints and JavaScript validation.
+- Contact form HTML constraints and JavaScript validation, including a 10-digit phone number.
+- Inline error feedback and successful-submission confirmation.
+- Live Services page search/filter.
+- Expandable FAQ sections.
+- Gallery lightbox with close button and Escape-key support.
+- Interactive OpenStreetMap embed (requires an internet connection).
+- Responsive layouts and navigation at desktop, tablet and mobile sizes.
 
-Responsive implementation checks
-- Desktop grid layout: PASS
-- Tablet breakpoint: PASS
-- Mobile breakpoint: PASS
-- Mobile navigation control: PASS
-- Responsive images using srcset/sizes/picture: PASS
-- Hover and focus states: PASS
+FINAL MANUAL TESTS — COMPLETE BEFORE SUBMISSION
+[ ] Open the website through a local web server.
+[ ] Test empty and invalid enquiry form submissions.
+[ ] Test a valid enquiry form submission and confirmation message.
+[ ] Test empty and invalid contact form submissions.
+[ ] Test a valid contact form submission and confirmation message.
+[ ] Confirm the phone field rejects anything other than 10 digits.
+[ ] Search for matching and non-matching service keywords.
+[ ] Open and close gallery images using the button and Escape key.
+[ ] Expand and collapse FAQ items.
+[ ] Confirm the map loads with an internet connection.
+[ ] Test all six pages at desktop, tablet and mobile sizes.
+[ ] Deploy the website and test all pages on the published URL.
+[ ] Replace the deployment-domain placeholders in robots.txt and sitemap.xml.
+[ ] Add the final GitHub repository URL and deployed URL to README.md.
+
+FORM PROCESSING LIMITATION
+The lecturer clarified on 28 October 2026 that this introductory assessment does not require database storage or actual email delivery. Form submissions therefore remain client-side demonstrations and do not transmit or store personal information. Do not describe them as live email or server-side submissions.

@@ -1,39 +1,41 @@
-LEAD by ELEVATE – PART 1 SITE MAP
+LEAD by ELEVATE — PART 3 SITE MAP
 
-HOME – index.html
-  ├── Introduction / welcome
-  ├── What LEAD is
-  ├── Main activities
-  ├── Member expectations
-  └── Gallery link
+HOME — index.html
+  ├── Welcome and introduction
+  ├── Main development activities
+  └── Member expectations
 
-ABOUT – About.html
+ABOUT — About.html
   ├── Who we are
-  ├── Mission
-  ├── Vision
-  ├── What LEAD is not
-  ├── Member expectations
-  └── Values
+  ├── Mission and vision
+  ├── Values
+  └── Member expectations
 
-SERVICES – Services.html
-  ├── Leadership Development
+SERVICES — Services.html
+  ├── Leadership development
   ├── Mentorship
-  ├── Industry Exposure
-  ├── Career Growth
-  ├── Community Sessions
+  ├── Industry exposure
+  ├── Career growth
+  ├── Community sessions
   ├── Coaching
-  └── Events / Sessions
+  ├── Live search/filter
+  └── Expandable FAQ
 
-ENQUIRY – Enquiry.html
-  ├── Full Name
-  ├── Email Address
-  ├── Area of Interest
-  └── Message
+ENQUIRY — Enquiry.html
+  ├── Full name
+  ├── Email address
+  ├── Area of interest
+  ├── Message
+  ├── HTML constraints
+  └── JavaScript validation and confirmation
 
-CONTACT US – Contact Us.html
-  ├── Contact purpose
+CONTACT US — Contact Us.html
   ├── Communication areas
-  └── Project evidence image
+  ├── Contact form
+  ├── HTML constraints
+  ├── JavaScript validation and confirmation
+  └── Interactive general Johannesburg-area map
 
-GALLERY – Gallery.html
-  └── Supplied LEAD photographs and promotional graphics
+GALLERY — Gallery.html
+  ├── Supplied LEAD photographs
+  └── Accessible image lightbox

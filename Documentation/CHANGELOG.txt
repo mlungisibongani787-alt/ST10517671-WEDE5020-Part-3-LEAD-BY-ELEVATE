@@ -1,59 +1,41 @@
-CHANGELOG – WEDE5020 PART 2
+CHANGELOG — WEDE5020 — LEAD BY ELEVATE
 
 Student: Bongani Mlungisi Ndhlala
 Student Number: ST10517671
 
-PART 2 – SEPTEMBER 2026
+PART 1 — FOUNDATION
+- Established the LEAD by ELEVATE website concept and core page structure.
+- Created the initial HTML pages and project documentation.
 
-1. Feedback and foundation review
-- Reviewed the Part 1 website structure and retained the six-page navigation and supplied project content.
-- Kept the existing LEAD by ELEVATE information architecture while improving the presentation and user experience.
+PART 2 — VISUAL DESIGN AND RESPONSIVE LAYOUT
+- Retained the six-page website and original LEAD by ELEVATE content.
+- Added a shared external stylesheet and consistent navy, warm-white, charcoal and gold/sage visual palette.
+- Added responsive desktop, tablet and mobile layouts.
+- Added responsive image variants, descriptive image alternative text and navigation focus states.
+- Added basic enquiry form confirmation behaviour.
+- Added page titles and meta descriptions.
 
-2. External stylesheet
-- Rebuilt css/style.css as the shared stylesheet for all six pages.
-- Added CSS variables for the site colour palette, spacing and common visual values.
-- Added a CSS reset/base box-sizing rule and consistent typography.
+PART 3 — FUNCTIONALITY, VALIDATION AND SEO
+- Added a contact form to Contact Us.html while retaining the existing Enquiry.html form.
+- Added HTML form constraints for required values, input types, character lengths and phone-number format.
+- Expanded JavaScript validation for names, email addresses, phone numbers, selections and messages.
+- Added inline field-level error messages, accessible invalid-state indicators and success feedback.
+- Kept form handling client-side in line with the lecturer's 28 October 2026 clarification: no database or actual email delivery is required for this introductory assessment.
+- Added live search to filter the Services page cards.
+- Added expandable FAQ sections to demonstrate interactive page content.
+- Added an accessible image lightbox to Gallery.html, including close-button and Escape-key support.
+- Added an interactive map embed to Contact Us.html. The initial general Johannesburg map was subsequently replaced with a Google Maps search for the office address supplied by the student.
+- Added page-specific meta keywords while preserving the existing page titles and meta descriptions.
+- Added robots.txt and sitemap.xml. The deployment-domain placeholders must be replaced after the final hosting URL is known.
+- Created this root README.md and updated the documentation references and testing checklist.
 
-3. Desktop styling
-- Added a structured header, navigation, hero section, content sections, cards, forms, gallery and footer.
-- Added CSS Grid for multi-column layouts.
-- Added consistent typography, spacing, borders, rounded corners and shadows.
-- Added button and interactive element styling.
+TESTING AND RELEASE NOTES
+- Static project checks and JavaScript syntax checks are to be completed before final release.
+- Browser-based tests must be completed at desktop, tablet and mobile widths.
+- Final deployment URL and GitHub repository URL must be entered after publishing and pushing the project.
 
-4. Responsive design
-- Added tablet and mobile media queries.
-- Added responsive grid changes for cards and gallery items.
-- Added stacked layouts for hero, content and form sections on smaller screens.
-- Added a mobile navigation menu using a checkbox control.
-- Added responsive typography and spacing adjustments.
 
-5. Responsive images
-- Added small and medium image variants for the supplied project photographs.
-- Added srcset and sizes attributes to important images.
-- Added picture sources on the Home page hero image.
-- Added lazy loading to Gallery images that are below the initial viewport.
-
-6. Pseudo-classes and interaction states
-- Added :hover, :active, :focus and :focus-visible styling.
-- Added hover movement and visual feedback to buttons, navigation links and cards.
-- Added clear keyboard focus indicators.
-
-7. HTML and accessibility improvements
-- Added skip-to-content links.
-- Added aria-current to the active navigation item through JavaScript.
-- Improved labels and autocomplete attributes on the enquiry form.
-- Added descriptive page titles and meta descriptions.
-- Improved semantic grouping with sections, articles, figures and navigation lists.
-
-8. JavaScript improvements
-- Retained current-page navigation functionality and improved handling of encoded page names.
-- Retained enquiry form client-side confirmation.
-- Added automatic current-year output in the footer.
-
-9. Testing
-- Tested the website locally with Chromium at desktop, tablet and mobile viewport sizes.
-- Checked navigation, images, CSS loading, responsive layout, form interaction and page rendering.
-- Screenshot evidence was saved under Documentation/Screenshots/.
-
-10. References
-- Added and updated the reference list in Documentation/Readme.txt for CSS responsive design, responsive images, pseudo-classes, CSS Grid and accessibility guidance.
+Part 3 update — 1 November 2026
+- Updated the Contact Us page with the supplied office address: Dunkeld Crescent Office Park, 2 Albury Road, Dunkeld West, Randburg, Johannesburg, South Africa.
+- Replaced the general Johannesburg reference map with an interactive Google Maps search for the supplied office location and added a directions link.
+- Updated the README project description and references to document the office location and map integration.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Replace YOUR-DEPLOYED-DOMAIN with the actual Netlify or GitHub Pages domain after deployment. -->
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/About.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/Services.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/Enquiry.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/Contact%20Us.html</loc></url>
+  <url><loc>https://YOUR-DEPLOYED-DOMAIN/Gallery.html</loc></url>
+</urlset>

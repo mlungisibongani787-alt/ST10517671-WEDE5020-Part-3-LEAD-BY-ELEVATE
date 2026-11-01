@@ -1,21 +1,30 @@
-WEDE5020 PART 2 TESTING CHECKLIST
+WEDE5020 PART 3 — TESTING CHECKLIST
 
-[PASS] Six HTML pages load locally.
-[PASS] Shared external stylesheet is linked on all six pages.
-[PASS] Shared JavaScript file is linked on all six pages.
-[PASS] Navigation links point to the intended pages.
-[PASS] Active page is identified in the navigation.
-[PASS] Home hero image loads.
-[PASS] Gallery images load and remain within their cards.
-[PASS] Responsive image variants are present.
-[PASS] Desktop layout uses multiple columns where appropriate.
-[PASS] Tablet layout reduces columns and stacks content where appropriate.
-[PASS] Mobile layout uses a single column where appropriate.
-[PASS] Mobile navigation control is present.
-[PASS] Hover and focus states are styled.
-[PASS] Enquiry form required fields are present.
-[PASS] Enquiry form confirmation displays through JavaScript.
-[PASS] Keyboard focus indicators are visible.
-[PASS] Skip-to-content links are present.
-[PASS] Image alt text is present on content images.
-[PASS] Meta descriptions and page titles are present.
+STATIC CHECKS COMPLETED
+[PASS] Six HTML pages parse successfully.
+[PASS] Shared CSS is linked on all six pages.
+[PASS] Shared JavaScript is linked on all six pages.
+[PASS] Local page, CSS, JavaScript and image references resolve.
+[PASS] No duplicate HTML IDs were found.
+[PASS] Page titles, meta descriptions and page-specific meta keywords are present.
+[PASS] Enquiry and contact forms are present.
+[PASS] All gallery images have alternative text.
+[PASS] sitemap.xml is valid XML.
+[PASS] robots.txt is present.
+[PASS] JavaScript syntax check passes.
+
+MANUAL BROWSER TESTS REQUIRED BEFORE SUBMISSION
+[ ] Open website through a local HTTP server.
+[ ] Test navigation on all six pages.
+[ ] Test blank and invalid enquiry form values.
+[ ] Test valid enquiry form values and confirmation.
+[ ] Test blank and invalid contact form values.
+[ ] Test valid contact form values and confirmation.
+[ ] Confirm phone field accepts exactly 10 digits.
+[ ] Test Services live search with matching and non-matching keywords.
+[ ] Test FAQ expand/collapse controls.
+[ ] Test Gallery lightbox open, close button and Escape key.
+[ ] Test interactive map with an internet connection.
+[ ] Test desktop, tablet and mobile layouts.
+[ ] Repeat all relevant tests on the deployed website.
+[ ] Replace sitemap and robots domain placeholders with the final deployed URL.

@@ -5,6 +5,7 @@
   <meta name="description" content="Send an enquiry to LEAD by ELEVATE about leadership development, mentorship, exposure, coaching or community activities.">
   <meta name="theme-color" content="#17324d"><title>Enquiry | LEAD by ELEVATE</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta name="keywords" content="LEAD by ELEVATE enquiry, leadership programme, mentorship, coaching, industry exposure">
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
@@ -13,15 +14,15 @@
 <section class="page-banner"><div class="container"><span class="eyebrow">Start a conversation</span><h1>Make an Enquiry</h1><p>Tell us what you would like to learn more about.</p></div></section>
 <section class="section"><div class="container form-layout">
 <div class="form-card"><div class="section-heading"><h2>Enquiry form</h2><p>Complete the required fields below. The form uses client-side validation and a JavaScript confirmation.</p></div>
-<form id="enquiryForm">
-<div class="form-group"><label for="name">Full Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
-<div class="form-group"><label for="email">Email Address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-<div class="form-group"><label for="interest">Area of Interest</label><select id="interest" name="interest" required><option value="">Select an option</option><option>Leadership Development</option><option>Mentorship</option><option>Industry Exposure</option><option>Career Growth</option><option>Coaching</option><option>General Enquiry</option></select></div>
-<div class="form-group"><label for="message">Message</label><textarea id="message" name="message" required></textarea></div>
-<button class="button button-primary" type="submit">Submit Enquiry</button><p id="formMessage" class="form-message" aria-live="polite"></p>
+<form id="enquiryForm" novalidate>
+<div class="form-group"><label for="name">Full Name</label><input id="name" name="name" type="text" pattern="[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ\s'-]*" title="Use letters, spaces, apostrophes or hyphens." autocomplete="name" minlength="2" maxlength="80" required aria-describedby="nameError"><small class="field-error" id="nameError"></small></div>
+<div class="form-group"><label for="email">Email Address</label><input id="email" name="email" type="email" autocomplete="email" maxlength="120" required aria-describedby="emailError"><small class="field-error" id="emailError"></small></div>
+<div class="form-group"><label for="interest">Area of Interest</label><select id="interest" name="interest" required aria-describedby="interestError"><option value="">Select an option</option><option>Leadership Development</option><option>Mentorship</option><option>Industry Exposure</option><option>Career Growth</option><option>Coaching</option><option>General Enquiry</option></select><small class="field-error" id="interestError"></small></div>
+<div class="form-group"><label for="message">Message</label><textarea id="message" name="message" minlength="10" maxlength="1000" required aria-describedby="messageError"></textarea><small class="field-error" id="messageError"></small></div>
+<button class="button button-primary" type="submit">Submit Enquiry</button><p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
 </form></div>
 <aside class="info-card"><h2>What can you ask about?</h2><ul class="check-list"><li>Programme and membership information</li><li>Mentorship and coaching</li><li>Industry exposure and partnerships</li><li>Career development</li><li>General information</li></ul><div class="notice">This academic website does not invent unsupported official contact details or event dates.</div></aside>
 </div></section>
 </main>
-<footer class="site-footer"><div class="container"><div class="footer-grid"><div><h2>LEAD by ELEVATE</h2><p>Leadership development, mentorship, exposure and long-term growth.</p></div><div><h3>Explore</h3><p><a href="index.html">Home</a><br><a href="About.html">About</a><br><a href="Services.html">Services</a></p></div><div><h3>Connect</h3><p><a href="Gallery.html">Gallery</a><br><a href="Contact%20Us.html">Contact Us</a></p></div></div><div class="footer-bottom">&copy; <span id="currentYear">2026</span> LEAD by ELEVATE. Website developed for WEDE5020 Part 2.</div></div></footer>
+<footer class="site-footer"><div class="container"><div class="footer-grid"><div><h2>LEAD by ELEVATE</h2><p>Leadership development, mentorship, exposure and long-term growth.</p></div><div><h3>Explore</h3><p><a href="index.html">Home</a><br><a href="About.html">About</a><br><a href="Services.html">Services</a></p></div><div><h3>Connect</h3><p><a href="Gallery.html">Gallery</a><br><a href="Contact%20Us.html">Contact Us</a></p></div></div><div class="footer-bottom">&copy; <span id="currentYear">2026</span> LEAD by ELEVATE. Website developed for WEDE5020 Part 3.</div></div></footer>
 <script src="js/script.js"></script></body></html>

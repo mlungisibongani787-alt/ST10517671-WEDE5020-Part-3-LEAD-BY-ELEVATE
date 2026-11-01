@@ -1,18 +1,21 @@
-LEAD by ELEVATE – PART 2 FOLDER STRUCTURE
+LEAD by ELEVATE — PART 3 FOLDER STRUCTURE
 
-WEB-Part-1-main/
+ST10517671-WEDE5020-Part2-LEAD-BY-ELEVATE-main/
 ├── index.html
 ├── About.html
 ├── Services.html
 ├── Enquiry.html
 ├── Contact Us.html
 ├── Gallery.html
+├── README.md
+├── robots.txt
+├── sitemap.xml
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
 ├── images/
-│   ├── original supplied JPG images
+│   ├── supplied LEAD JPG images
 │   ├── *-small.jpg responsive variants
 │   └── *-medium.jpg responsive variants
 └── Documentation/
@@ -24,11 +27,9 @@ WEB-Part-1-main/
     ├── Readme.txt
     ├── Research_and_Content.txt
     ├── Site_Map.txt
+    ├── Submission_Check.txt
+    ├── TEST_RESULTS.txt
     ├── Testing_Checklist.txt
     ├── Wireframes.pdf
     ├── folder_structure.png
-    ├── site_map.png
-    └── Screenshots/
-        ├── desktop-home.png
-        ├── tablet-home.png
-        └── mobile-home.png
+    └── site_map.png

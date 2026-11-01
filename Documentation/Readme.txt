@@ -1,4 +1,4 @@
-LEAD by ELEVATE – WEDE5020 PART 2
+LEAD by ELEVATE – WEDE5020 PART 3 (UPDATED PROJECT)
 
 Student: Bongani Mlungisi Ndhlala
 Student Number: ST10517671
@@ -83,7 +83,7 @@ Responsive layouts were checked at desktop, tablet and mobile viewport widths du
 
 8. CHANGELOG
 
-See Documentation/CHANGELOG.txt for the detailed record of changes from Part 1 to Part 2.
+See Documentation/CHANGELOG.txt for the detailed record of changes from Part 1 to Part 3.
 
 9. REFERENCES
 
@@ -102,3 +102,20 @@ LEAD by ELEVATE (2026) Member expectations, welcome and community promotional ma
 10. SUBMISSION CHECK
 
 The Part 2 project contains the updated HTML files, external CSS, JavaScript, local images, responsive image variants, documentation, changelog and testing screenshots.
+
+
+11. PART 3 UPDATES
+
+The Part 3 implementation is summarised in the root README.md. The website now includes:
+- Client-side HTML and JavaScript validation for both enquiry and contact forms.
+- Inline validation messages and successful-submission feedback.
+- Live search filtering on the Services page.
+- Expandable FAQ sections.
+- An accessible Gallery lightbox.
+- An interactive Google Maps search embed and directions link for the supplied Dunkeld Crescent Office Park address on Contact Us.
+- Page-specific meta keywords, robots.txt and sitemap.xml.
+
+IMPORTANT FORM NOTE
+The lecturer clarified in the 28 October 2026 class session that this introductory assessment does not require a database or actual email delivery. Forms therefore demonstrate client-side validation and confirmation only; they do not transmit or store personal information.
+
+The actual deployed URL must replace the placeholder domain in robots.txt and sitemap.xml after hosting is completed.
